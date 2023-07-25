@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido a Vientos | Tienda online</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+   
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light shadow-sm p-3">
+            <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <h1 class="d-none">Vientos</h1>
+                        <img src="img/brand_vientos2.png" alt="Logo de la marca vientos.">
+                    </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#miNavBar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-md-end" id="miNavBar">
+                    <div class="navbar-nav menu p-3">
+                        <a class="nav-link" href="#">Inicio</a>
+                        <a class="nav-link" href="#nosotros">Nosotros</a>
+                        <div class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Instrumentos
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#productos">Metales</a></li>
+                                <li><a class="dropdown-item" href="#productos">Maderas</a></li>
+                                <li><a class="dropdown-item" href="#productos">Accesorios</a></li>
+                                <li>
+                                <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#productos">Ver todo</a></li>
+                            </ul>
+                        </div>
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+        
+
+
+    <div class="container">
+
+        <div id="miSlider" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-inner text-light">
+                
+                <div class="carousel-item active">
+                    <div class="carrouselBanner" style="background-image:url('img/banner_calle.webp')" title="Músicos tocando en la calle">
+                        <div>Músicos tocando en la calle</div>
+                    </div>
+    
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="fs-4 fw-bold">Llevá tu música a cada esquina</h2>
+                        <p class="fs-5">Encuentra los instrumentos perfectos para crear tus propias notas mágicas."</p>
+                    </div>
+                </div>
+    
+                <div class="carousel-item">
+                    <div class="carrouselBanner" style="background-image:url('img/banner_flauta.webp')" title="Flautista">
+                        <div>Flautista</div>
+                    </div>
+    
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="fs-4 fw-bold">Soplá creatividad</h2>
+                        <p class="fs-5">¡Descubrí el poder de los vientos!</p>
+                    </div>
+    
+                </div>
+                
+                <div class="carousel-item">
+                    <div class="carrouselBanner" style="background-image:url('img/banner_saxo.webp')" title="saxofonista en escenario">
+                        <div>Saxofonista en escenario</div>
+                    </div>
+    
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="fs-4 fw-bold">Dominá el escenario</h2>
+                        <p class="fs-5">Llevá tu música a otro nivel</p>
+                    </div>
+                </div>
+            </div>
+    
+            <button class="carousel-control-prev" type="button" data-bs-target="#miSlider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+    
+            <button class="carousel-control-next" type="button" data-bs-target="#miSlider" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </button>
+    
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#miSlider" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                <button type="button" data-bs-target="#miSlider" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#miSlider" data-bs-slide-to="2"></button>
+            </div>
+    
+        </div>  
+
+        <section class="row d-flex align-items-center justify-content-center my-5 px-2 px-md-4">
+            <div class="col-12 col-lg-8 order-lg-1">
+                <h2 id="nosotros" class="fs-1 text-color">Sobre Vientos</h2>
+                <p>Bienvenido a <strong>Vientos</strong>. Somos un equipo de músicos profesionales que comparten la pasión por la música y el deseo de ayudarte a encontrar el instrumento perfecto para expresar tu creatividad y potenciar tu talento musical.</p>
+                <p>Entendemos que aprender como tocar instrumentos de viento es un proceso emocionante y desafiante. Es por eso que <em>nos esforzamos en brindarte recursos valiosos, orientación experta y el apoyo necesario</em> para que disfrutes plenamente de este camino.</p>
+
+                <img class="img-fluid d-md-block d-lg-none p-0 rounded-3 img-nosotros shadow mb-3 mb-md-4" src="img/flautas_partituras.jpeg" alt="Flauta desarmada sobre partitura">
+
+                <h3 class="text-color">Instrumentos de calidad</h3>
+                <p>Trabajamos con las marcas más destacadas en la industria. Valoramos la calidad, el rendimiento y la durabilidad por lo que <strong>ofrecemos marcas de instrumentos de viento reconocidas y confiables</strong>.</p>
+                <p>Ya sea que estés buscando comprar una trompeta profesional, un saxofón de alta gama o una flauta de estudio de calidad, tenemos una amplia selección para elegir el instrumento que mejor se ajuste a tus necesidades y preferencias.</p>
+                <p>Contamos con asesoramiento personalizado, pruebas de instrumentos y un servicio de postventa confiable para garantizar que tengas una experiencia satisfactoria en cada etapa de tu viaje musical.</p>
+
+
+            </div>
+            
+            <div class="col-12 col-lg-4 d-md-none d-lg-block order-lg-2">
+                <img class="img-fluid d-block p-0 rounded-3 shadow img-nosotros" src="img/saxofonista.png" alt="Saxofonista">
+            </div>
+
+            <div class="col-12 col-lg-7 pt-4 text-lg-end order-lg-4">
+                <h3 class="text-color">Comprá en linea o en nuestra sucursal online</h3>
+                <p>Sabemos lo importante que es encontrar el lugar adecuado donde comprar instrumentos de viento. En <strong>Vientos</strong> ofrecemos la experiencia de compra confiable y segura además del asesoramiento personalizado para ayudarte a tomar la mejor decisión.</p>
+                <p>Podes acercarte a nuestra <em>sucursal de Villa Devoto</em> para probar los instrumentos personalmente o visitar nuestro <a href="#">catálogo en línea</a> donde encontrarás una amplia variedad de instrumentos de viento disponibles para comprar.</p>
+            </div>
+
+            <div class="col-12 col-lg-5 pt-md-4 order-lg-3">
+                <img class="img-fluid d-block p-0 rounded-3 shadow" src="img/trompeta_asfalto.png" alt="Trompeta profesional sobre el asfalto.">
+            </div>
+        </section>
+
+        <section class="row g-3 bg-catalogo d-flex align-items-center justify-content-center my-5 px-2 ">
+            <div id="productos" class="col-11 mt-5 text-center text-white">
+                <h2>Conocé nuestro catálogo</h2>
+                <p>Explora nuestra selección de instrumentos de viento de alta calidad para músicos de todos los niveles. Encuentra el instrumento perfecto y lleva tu música al siguiente nivel.</p>
+            </div>
+
+            <div class="col-12 col-lg-10">
+                <div class="row d-flex justify-content-around pb-5">
+
+                    <div class="col-12 col-md-6 col-lg-4 p-3">
+                        <div class="card">
+                            <img class="img-fluid d-block img-productos" src="img/flauta_llaves.png" alt="Flauta traversa Lexington">
+                            <div class="card-body">
+                                <h3 class="card-title fs-4">Flauta traversa Lexington 16 llvs<span class="badge categoria">Flautas</span></h3>
+                                <p>Ejecución precisa, cuerpo plateado, estuche rígido de transporte y kit de limpieza incluidos</p>
+                                <p class="card-text fs-2">$111.404</p>
+                                <a href="producto.html" role="button" class="d-block w-100 btn btn-color mb-2">Añadir al carrito</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 p-3">
+                        <div class="card">
+                            <img class="img-fluid d-block img-productos" src="img/trompeta_bs.png" alt="Trompeta BS">
+                            <div class="card-body">
+                                <h3 class="card-title fs-4">Trompeta B&S Chllenger BS3137<span class="badge categoria">Trompetas</span></h3>
+                                <p>Construcción precisa y meticulosa, sonido brillante y resonante en todos los registros.</p>
+                                <p class="card-text fs-2">$778.435</p>
+                                <a href="producto.html" role="button" class="d-block w-100 btn btn-color mb-2">Añadir al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 p-3">
+                        <div class="card">
+                            <img class="img-fluid d-block img-productos" src="img/clarinete_lincoln.png" alt="Clarinete Lincoln">
+                            <div class="card-body">
+                                <h3 class="card-title fs-4">Clarinete BB JYCL-1301 17 LLAVES<span class="badge categoria">Clarinetes</span></h3>
+                                <p>Cuerpo de madera y llaves ergonómicas, ofrece un sonido cálido y una ejecución cómoda. </p>
+                                <p class="card-text fs-2">$110.823</p>
+                                <a href="producto.html" role="button" class="d-block w-100 btn btn-color mb-2">Añadir al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 p-3">
+                        <div class="card">
+                            <img class="img-fluid d-block img-productos" src="img/trombon_yamaha.png" alt="Trombón Yamaha">
+                            <div class="card-body">
+                                <h3 class="card-title fs-4">Trombón Yamaha YSL-154<span class="badge categoria">Trombones</span></h3>
+                                <p>Vara de afinación precisa. Tubo de latón amarillo de calibre medio. Sonido equilibrado, rápida.</p>
+                                <p class="card-text fs-2">$447.912</p>
+                                <a href="producto.html" role="button" class="d-block w-100 btn btn-color mb-2">Añadir al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 p-3">
+                        <div class="card">
+                            <img class="img-fluid d-block img-productos" src="img/tuba.png" alt="Tuba">
+                            <div class="card-body">
+                                <h3 class="card-title fs-4">Tuba BB + estuche TU1100<span class="badge categoria">Tubas</span></h3>
+                                <p>Construcción robusta y precisa, respuesta suave y una excelente proyección de sonido.</p>
+                                <p class="card-text fs-2">$1.024.871</p>
+                                <a href="producto.html" role="button" class="d-block w-100 btn btn-color mb-2">Añadir al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 p-3">
+                        <div class="card">
+                            <img class="img-fluid d-block img-productos" src="img/saxo.png" alt="Gertrude Yorkes">
+                            <div class="card-body">
+                                <h3 class="card-title fs-5">Saxo Tenor Knight JBTS-100 + estuche <span class="badge categoria">Saxofones</span></h3>
+                                <p>Ejecución precisa, cuerpo plateado, estuche rígido de transporte y kit de limpieza incluidos</p>
+                                <p class="card-text fs-2">$420.450</p>
+                                <a href="producto.html" role="button" class="d-block w-100 btn btn-color mb-2">Añadir al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section class="row d-flex justify-content-center my-5">
+            <div class="col-12 col-md-11">
+                <div class="card p-3 bg-card shadow">
+                    <div class="row g-0 d-flex align-items-center">
+                        <div class="col-md-7 col-lg-8">
+                            <div class="card-body">
+                                <h2 class="card-title text-color">Comprometidos con tu éxito musical</h2>
+                                <div class="card-text">
+                                    <p>Queremos ayudarte en cada paso del camino ya sea que estés dando tus primeros pasos en el mundo de la música o seas un profesional experimentado.</p>
+                                    <p>Te invitamos a explorar <a href="#">nuestro blog</a> donde podrás encontrar una gran variedad de recursos. <em>Consejos, técnicas de estudio para mejorar tudominio del instrumento, ejercicios de práctica, recomendaciones de estudios de grabación</em>, son solo algunos de los artículos que encontrarás en nuestro blog.</p>
+                                    <p>¡Visitanos en nuestra <strong>sucursal de Villa Devoto</strong> o explora nuestro catálogo en línea y comenzá tu viaje musical!</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-lg-4 d-flex justify-content-end">
+                            <img class="img-fluid d-block img-section rounded-3 img-fluid rounded-start" src="img/trombonista.png" alt="Trombonista en festival">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="row justify-content-center bg-form my-5">
+
+            <div id="contacto" class="col-12 col-md-10 text-center pt-5">
+                <h2 class="fs-2 text-color">¡Suscribite para recibir novedades, ofertas y descuentos!</h2>
+                <p> Unite a nuestra comunidad musical y sé el primero en conocer las últimas noticias. Completá el formulario y no te pierdas ninguna oportunidad!
+                </p>
+            </div>
+
+            <div class="row d-flex justify-content-center align-items-start my-3">
+                <div class="col-4">
+                        <img class="img-fluid d-none d-lg-block rounded-3 img-form" src="img/saxo_form.jpeg" alt="Fotografía de pistones saxo">
+                </div>
+
+                <div class="col-12 col-md-10 col-lg-6 p-3">
+
+                    <form action="#" method="post" class="row">
+                        
+                        <div class="col-12 col-md-6 mb-3">
+                            <div class="form-floating">
+                                <input class="form-control" type="text" name="nombre" id="nombre" placeholder="Nombre" aria-describedby="nombre">
+                                <label class="form-label form-text" for="nombre">Nombre</label>
+                            </div>
+                        </div>
+    
+                        <div class="col-12 col-md-6 mb-4">
+                            <div class="form-floating">
+                                <input class="form-control" type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido">
+                                <label class="form-label form-text" for="apellido">Apellido</label>
+                            </div>
+                        </div>
+    
+                        <div class="col-12 mb-3">
+                            <label for="email" class="form-label label-font">Email</label>
+                            <input class="form-control" type="password" name="email" id="email" placeholder="Ingrese su email" aria-labelledby="email">
+                        </div>
+                        
+                        <div class="col-12 mb-3">
+                            <label for="telefono" class="form-label label-font">Teléfono</label>
+                            <input class="form-control" name="telefono" id="telefono" placeholder="Ingrese su telefono" aria-labelledby="telefono">
+                        </div>
+    
+                        <div class="col-12 mb-3">
+                            <label for="comentarios" class="form-label label-font">Envianos tu mensaje</label>
+                            <textarea class="form-control" id="comentarios" name="comentarios" rows="3"></textarea>
+                        </div>
+    
+                        <div class="col-12 col-md-8 mb-3">
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch" id="switch">
+                                <label class="form-check-label label-font" for="switch">¡Quiero suscribirme al newesletter!</label>
+                            </div>
+                        </div>
+    
+                        <div class="d-flex justify-content-end mb-5">
+                            <input type="submit" value="Enviar" class="btn btn-form w-100 text-light mt-3">
+                        </div>
+    
+                    </form>
+    
+                </div>
+    
+            </div>
+        </section>
+
+    </div>
+    
+    <footer>
+        <div class="bg-card shadow border-top">
+            <div class="container">
+                <div class="row justify-content-center justify-content-md-between align-items-center mt-5">
+                <div class="col-md-3 mb-5">
+                    <img class=" img-fluid rounded-3 d-block m-auto" src="img/foto_perfil.png" alt="Foto de la desarrolladora.">
+                </div>
+                <div class="col-7 col-md-8 text-md-end">
+                    <p>Natalia Merlo</p>
+                    <p>Edad: 28 años</p>
+                    <p>natalia.merlo@davinci.edu.ar</p>
+                </div>
+                </div>
+            </div>
+        </div>
+            
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
